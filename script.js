@@ -27,7 +27,7 @@ const messageArr = [arrOne, arrTwo, arrThree, arrFour, arrFive];
 let message = messageArr[Math.floor(Math.random() * messageArr.length)];
 
 // Returns random inspirational quote from one of the five arrays.
-const randMessage = (msg) => {
+const randMessage = msg => {
     let arrLength = msg.length;
     let arrRand = Math.floor(Math.random() * arrLength);
     return msg[arrRand];
