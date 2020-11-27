@@ -6,6 +6,7 @@
 * [Technologies](#technologies)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
+* [Launch](#launch)
 
 ## General info
 The purpose of this project is to use my knowledge of arrays, and functions to build a small project.
