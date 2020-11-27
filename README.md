@@ -15,6 +15,9 @@ The purpose of this project is to use my knowledge of arrays, and functions to b
 * ES6
 * Git and Github :octocat:
 
+## Launch
+With node install on you bash prompt type ```$ node script.js```
+
 ## Inspiration
 The project is a twist of codecademy messenger 💬 project.
 
