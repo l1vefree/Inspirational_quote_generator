@@ -21,13 +21,12 @@ let arrFive = [`There is hero in everyone.Never doubt who you are.`, `Close your
 ];
 
 // An array that has a collection of different arrays that contain quotes.
-const messagesArr = [arrOne, arrTwo, arrThree, arrFour, arrFive];
+const messageArr = [arrOne, arrTwo, arrThree, arrFour, arrFive];
 
-let rand = Math.floor(Math.random() * messagesArr.length);
+// Returns an index of message array, i.e. arrOne, arrThree, etc.
+let message = messageArr[Math.floor(Math.random() * messageArr.length)];
 
-let message = messagesArr[rand];
-
-// Returns random inspirational quote.
+// Returns random inspirational quote from one of the five arrays.
 const randMessage = (msg) => {
     let arrLength = msg.length;
     let arrRand = Math.floor(Math.random() * arrLength);
