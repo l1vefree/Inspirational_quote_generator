@@ -12,6 +12,8 @@ The purpose of this project is to use my knowledge of arrays, and functions to b
 
 ## Technologies
 * Vanilla Javascript
+* ES6
+* Git and Github :octocat:
 
 ## Inspiration
 The project is a twist of codecademy messenger 💬 project.
